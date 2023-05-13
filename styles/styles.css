@@ -66,7 +66,7 @@ h2 {
 	text-transform: uppercase;
 }
 
-p.about__description {
+.about__description {
 	margin-bottom: 30px;
 	height: 366px;
 	width: 1048px;
@@ -99,7 +99,7 @@ p.about__description {
 	color: #AD1818;
 }
 
-.projects-list .project {
+.project {
 	margin-bottom: 90px;
 }
 
@@ -155,11 +155,11 @@ p.about__description {
 	color: #FFFFFF;
 }
 
-.services-list .service {
+.service {
 	margin-bottom: 60px;
 }
 
-.service:nth-last-child(1) {
+.service:last-child {
 	margin-bottom: 0px;
 }
 
