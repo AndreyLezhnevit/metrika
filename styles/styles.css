@@ -30,7 +30,6 @@ h1 {
 	margin-bottom: 30px;
 	height: 120px;
 	width: 956px;
-
 	text-align: left;
 	font-size: 60px;
 	line-height: 60px;
@@ -61,7 +60,6 @@ h1 {
 
 h2 {
 	margin-bottom: 30px;
-
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 25px;
@@ -72,7 +70,6 @@ p.description {
 	margin-bottom: 30px;
 	height: 366px;
 	width: 1048px;
-
 	font-size: 45px;
 	font-weight: 400;
 	line-height: 61px;
@@ -81,11 +78,9 @@ p.description {
 
 .btn {
 	display: block;
-
 	width: 255px;
 	height: 67px;
 	padding: 20 40;
-
 	border: 1px solid #AD1818;
  	border-radius: 5px;
 	line-height: 67px;
