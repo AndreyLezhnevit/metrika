@@ -215,7 +215,7 @@ h2 {
 .fullWidthImage {
 	position: relative;
 	height: 717px;
-	background-image: url(/resources/two-room.jpg);
+	background-image: url(../resources/two-room.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50%;
