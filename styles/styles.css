@@ -6,37 +6,27 @@ body {
 	font-family: 'Manrope', sans-serif;
 	color: #121212;
 	background: #FFFFFF;
+	font-style: normal;
 	overflow-x: hidden;
+	box-sizing: border-box;
 }
 
 .container {
 	margin: 0 auto;
-	background: #FFFFFF;
-
+	max-width: 1150px;
 }
 
-section {
-	margin: 0 auto;
-	width: 1400px;
-	padding: 150px 125px 0px 125px;
-	box-sizing: border-box;
-}
-
-section:first-child {
-	margin-top: 0;
-	padding-top: 70px;
-}
-
-.section-full {
-	width: 100%;
-}
-
-.section-nopadd {
-	padding: 0;
-}
-
-.section-long {
+.section__description,
+.section__about-us,
+.section__projects,
+.section__services,
+.section__contacts {
 	padding-bottom: 150px;
+}
+
+.section__services,
+.section__contacts {
+	padding-top: 150px;
 }
 
 h1,
@@ -51,10 +41,8 @@ div {
 /*  */
 
 header {
-	margin: 0 auto;
-	padding: 33px 125px 0px 125px;
-	width: 1400px;
-	box-sizing: border-box;
+	padding: 33px 0px 70px 0px;
+
 }
 
 .nav {
@@ -64,16 +52,18 @@ header {
 
 .nav__link {
 	display: inline-block;
-	margin-left: 60px;
-	width: auto;
+	margin-right: 58px;
 	height: 25px;
 	line-height: 25px;
-	text-align: center;
+	text-align: left;
 	font-size: 18px;
 	color: #121212;
 	text-decoration: none;
 }
 
+.nav__link:last-child {
+	margin-right: 0;
+}
 
 .nav__link:hover {
 	border-bottom: 1px solid;
@@ -93,7 +83,7 @@ h1 {
 .main-image {
 	position: relative;
 	height: 500px;
-	width: 1150px;
+	min-width: 1150px;
 	background-image: url(../resources/gray-chair.jpg);
 }
 
@@ -197,7 +187,6 @@ h2 {
 
 .service {
 	padding-bottom: 60px;
-
 }
 
 .service:last-child {
@@ -216,8 +205,9 @@ h2 {
 	color: #FFFFFF;
 }
 
-.fullWidthImage {
+.section__fullWidthImage {
 	position: relative;
+	min-width: 1150px;
 	height: 717px;
 	background: linear-gradient(180deg,
 			rgba(0, 0, 0, 0) 0.52%,
@@ -226,12 +216,10 @@ h2 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50%;
-
 }
 
 .fullWidthImage__text {
 	position: absolute;
-	left: 125px;
 	bottom: 60px;
 	width: 443px;
 	height: 82px;
