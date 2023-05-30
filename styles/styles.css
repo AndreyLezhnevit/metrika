@@ -3,7 +3,8 @@ html {
 }
 
 body {
-	min-width: 1400px;
+	width: 1400px;
+	min-width: 100%;
 	font-family: 'Manrope', sans-serif;
 	color: #121212;
 	background: #FFFFFF;
