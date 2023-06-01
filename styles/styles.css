@@ -1,9 +1,12 @@
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	font-family: 'Manrope', sans-serif;
 	color: #121212;
 	background: #FFFFFF;
 	font-style: normal;
-	overflow-x: hidden;
 	box-sizing: border-box;
 	min-width: 1400px;
 
