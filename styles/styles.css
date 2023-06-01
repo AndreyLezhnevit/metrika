@@ -1,16 +1,12 @@
-html {
-	scroll-behavior: smooth;
-}
-
 body {
-	width: 1400px;
-	min-width: 100%;
 	font-family: 'Manrope', sans-serif;
 	color: #121212;
 	background: #FFFFFF;
 	font-style: normal;
 	overflow-x: hidden;
 	box-sizing: border-box;
+	min-width: 1400px;
+
 }
 
 .container {
@@ -257,12 +253,17 @@ h2 {
 	display: block;
 	width: 412px;
 	height: 60px;
-	border-bottom: 2px solid;
 	font-size: 60px;
 	line-height: 60px;
 	color: #121212;
-	opacity: 0.5;
 	text-decoration: none;
+}
+
+.contacts__phone:hover,
+.contacts__email:hover {
+	border-bottom: 2px solid;
+	opacity: 0.5;
+	box-sizing: border-box;
 }
 
 footer {
