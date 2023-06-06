@@ -186,6 +186,10 @@ h2 {
 	color: #FFFFFF;
 }
 
+service__header {
+padding-bottom: 35px;
+}
+
 .service {
 	padding-bottom: 60px;
 }
