@@ -30,6 +30,11 @@ body {
 	padding-top: 150px;
 }
 
+footer,
+.services {
+	background-color: #121212;
+}
+
 h1,
 h2,
 h3,
@@ -173,10 +178,6 @@ h2 {
 .fullWidthBtn:hover {
 	background-color: #AD1818;
 	color: #FFFFFF;
-}
-
-.container-black {
-	background-color: #121212;
 }
 
 .container-black h1,
