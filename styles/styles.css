@@ -169,6 +169,7 @@ h2 {
 	color: #AD1818;
 	font-size: 30px;
 	text-decoration: none;
+	box-sizing: border-box;
 }
 
 .fullWidthBtn:hover {
