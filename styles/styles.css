@@ -17,16 +17,16 @@ body {
 	max-width: 1150px;
 }
 
-.section__description,
-.section__about-us,
-.section__projects,
-.section__services,
-.section__contacts {
+.description,
+.about-us,
+.projects,
+.services,
+.contacts {
 	padding-bottom: 150px;
 }
 
-.section__services,
-.section__contacts {
+.services,
+.contacts {
 	padding-top: 150px;
 }
 
@@ -84,7 +84,6 @@ h1 {
 .main-image {
 	position: relative;
 	height: 500px;
-	min-width: 1150px;
 	background-image: url(../resources/gray-chair.jpg);
 }
 
@@ -140,7 +139,6 @@ h2 {
 
 .project__image {
 	padding-bottom: 15px;
-	width: 1150px;
 	height: 450px;
 }
 
@@ -211,9 +209,8 @@ h2 {
 	color: #FFFFFF;
 }
 
-.section__fullWidthImage {
+.fullWidthImage {
 	position: relative;
-	min-width: 1150px;
 	height: 717px;
 	background: linear-gradient(180deg,
 			rgba(0, 0, 0, 0) 0.52%,
