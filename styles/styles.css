@@ -88,7 +88,7 @@ h1 {
 	background-image: url(../resources/gray-chair.jpg);
 }
 
-.main-text {
+.main-image__description {
 	position: absolute;
 	bottom: 40px;
 	left: 40px;
@@ -185,7 +185,7 @@ h2 {
 }
 
 .services {
-	padding: 152px 0px;
+	padding: 151px 0px;
 }
 
 .service {
