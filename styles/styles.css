@@ -189,11 +189,11 @@ h2 {
 }
 
 .service {
-	margin-bottom: 60px;
+	padding-bottom: 60px;
 }
 
 .service:last-child {
-	margin-bottom: 0px;
+	padding-bottom: 0px;
 }
 
 .service__image {
