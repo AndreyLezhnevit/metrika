@@ -6,8 +6,311 @@ body {
 	font-family: 'Manrope', sans-serif;
 	color: #121212;
 	background: #FFFFFF;
-	font-style: normal;
-	min-width: 1400px;
+}
+
+h1,
+h2,
+h3,
+a,
+p,
+div {
+	letter-spacing: -0.03em;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1150px;
+}
+
+/* section */
+
+.intro {
+	margin-bottom: 150px;
+}
+
+.intro__title {
+	margin-bottom: 30px;
+	width: 956px;
+	font-size: 60px;
+	line-height: 60px;
+}
+
+.intro__content {
+	position: relative;
+	height: 500px;
+	background: linear-gradient(180deg,
+			rgba(0, 0, 0, 0) 0%,
+			rgba(0, 0, 0, 0.2) 100%),
+		url(../resources/gray-chair.jpg);
+}
+
+.intro__description {
+	position: absolute;
+	bottom: 40px;
+	left: 40px;
+	width: 430px;
+	font-size: 20px;
+	line-height: 27px;
+	color: #FFFFFF;
+}
+
+@media (max-width: 1199px) {
+	.container {
+		width: 100%;
+		padding: 0 16px;
+	}
+
+	.intro {
+		margin-bottom: 120px;
+	}
+
+	.intro__title {
+		width: 802px;
+		font-size: 50px;
+	}
+
+	.intro__content {
+		width: 100%;
+		height: 400px;
+		background: linear-gradient(180deg,
+				rgba(0, 0, 0, 0) 0%,
+				rgba(0, 0, 0, 0.2) 100%),
+			url(../resources/gray-chair.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 50%;
+	}
+
+	.intro__description {
+		bottom: 30px;
+	}
+}
+
+@media (max-width: 767px) {
+	.container {
+		padding: 0 12px;
+	}
+
+	.intro {
+		margin-bottom: 80px;
+	}
+
+	.intro__title {
+		width: 348px;
+		font-size: 30px;
+		line-height: 32px;
+	}
+
+	.intro__content {
+		width: 100%;
+		height: 304px;
+		background: linear-gradient(180deg,
+				rgba(0, 0, 0, 0) 0%,
+				rgba(0, 0, 0, 0.4) 100%),
+			url(../resources/gray-chair.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 50%;
+	}
+
+	.intro__description {
+		width: 312px;
+		left: 15px;
+		bottom: 15px;
+		font-size: 16px;
+		line-height: 22px;
+	}
+}
+
+/* next section */
+
+.about-us {
+	margin-bottom: 150px;
+}
+
+.title {
+	margin-bottom: 30px;
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+}
+
+.about-us-info {
+	margin-bottom: 30px;
+	width: 1048px;
+	font-size: 45px;
+	line-height: 61.47px;
+}
+
+.service-btn {
+	display: block;
+	width: 255px;
+	height: 67px;
+	border-radius: 5px;
+	line-height: 67px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	background: #AD1818;
+	color: #FFFFFF;
+}
+
+.service-btn:hover {
+	border: 1px solid #AD1818;
+	background-color: #FFFFFF;
+	color: #AD1818;
+}
+
+@media (max-width: 1199px) {
+	.about-us {
+		margin-bottom: 120px;
+	}
+
+	.about-us-info {
+		width: 690px;
+		font-size: 35px;
+		line-height: 48px;
+	}
+}
+
+@media (max-width: 767px) {
+	.about-us {
+		margin-bottom: 80px;
+	}
+
+	.title {
+		margin-bottom: 20px;
+		font-size: 14px;
+		line-height: 19px;
+	}
+
+	.about-us-info {
+		margin-bottom: 30px;
+		width: 346px;
+		font-size: 22px;
+		line-height: 30px;
+	}
+
+	.service-btn {
+		width: 194px;
+		height: 51px;
+		border-radius: 3.8px;
+		font-size: 16px;
+		line-height: 51px;
+	}
+}
+
+/* next section */
+
+.projects {
+	margin-bottom: 150px;
+}
+
+.project {
+	margin-bottom: 90px;
+}
+
+.project__image {
+	margin-bottom: 15px;
+}
+
+.project__title {
+	margin-bottom: 15px;
+	font-size: 30px;
+	line-height: 41px;
+	color: #121212;
+}
+
+.project__link {
+	font-size: 20px;
+	line-height: 27px;
+	color: #AD1818;
+	text-decoration: none;
+}
+
+.gallery-btn {
+	display: block;
+	width: 100%;
+	height: 153px;
+	border: 1px solid #AD1818;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 153px;
+	color: #AD1818;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+.gallery-btn:hover {
+	background-color: #AD1818;
+	color: #FFFFFF;
+}
+
+@media (max-width: 1199px) {
+	.projects {
+		margin-bottom: 103px;
+	}
+
+	.project {
+		margin-bottom: 80px;
+	}
+
+	.project__image {
+		width: 100%;
+	}
+
+	.project__title {
+		margin-bottom: 10px;
+		font-size: 25px;
+		line-height: 34px;
+	}
+}
+
+@media (max-width: 767px) {
+	.projects {
+		margin-bottom: 144px;
+	}
+
+	.project {
+		margin-bottom: 49px;
+	}
+
+	.project:last-child {
+		margin-bottom: 60px;
+	}
+
+	.project__image {
+		margin-bottom: 20px;
+	}
+
+	.project__title {
+		margin-bottom: 11px;
+		font-size: 18px;
+		line-height: 25px;
+	}
+
+	.project__link {
+		font-size: 16px;
+		line-height: 22px;
+	}
+
+	.gallery-btn {
+		height: 100px;
+		border-radius: 3.8px;
+		line-height: 100px;
+		font-size: 22px;
+	}
+}
+
+/* html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Manrope', sans-serif;
+	color: #121212;
+	background: #FFFFFF;
+	min-width: 1150px;
 }
 
 .container {
@@ -40,7 +343,7 @@ div {
 	letter-spacing: -0.03em;
 }
 
-/*  */
+
 
 header {
 	margin: 33px 0px 70px 0px;
@@ -72,7 +375,6 @@ header {
 	opacity: 0.5;
 }
 
-/*  */
 
 h1 {
 	margin-bottom: 30px;
@@ -299,4 +601,4 @@ footer {
 	line-height: 27px;
 	color: #FFFFFF;
 	opacity: 0.5;
-}
+} */
