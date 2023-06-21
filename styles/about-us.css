@@ -1,0 +1,75 @@
+.about-us {
+	margin-bottom: 150px;
+}
+
+.title {
+	margin-bottom: 30px;
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+}
+
+.about-us-info {
+	margin-bottom: 30px;
+	width: 1048px;
+	font-size: 45px;
+	line-height: 61.47px;
+}
+
+.service-btn {
+	display: block;
+	width: 255px;
+	height: 67px;
+	border-radius: 5px;
+	line-height: 67px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	background: #AD1818;
+	color: #FFFFFF;
+}
+
+.service-btn:hover {
+	border: 1px solid #AD1818;
+	background-color: #FFFFFF;
+	color: #AD1818;
+}
+
+@media (max-width: 1199px) {
+	.about-us {
+		margin-bottom: 120px;
+	}
+
+	.about-us-info {
+		width: 690px;
+		font-size: 35px;
+		line-height: 48px;
+	}
+}
+
+@media (max-width: 767px) {
+	.about-us {
+		margin-bottom: 80px;
+	}
+
+	.title {
+		margin-bottom: 20px;
+		font-size: 14px;
+		line-height: 19px;
+	}
+
+	.about-us-info {
+		margin-bottom: 30px;
+		width: 346px;
+		font-size: 22px;
+		line-height: 30px;
+	}
+
+	.service-btn {
+		width: 194px;
+		height: 51px;
+		border-radius: 3.8px;
+		font-size: 16px;
+		line-height: 51px;
+	}
+}
