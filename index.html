@@ -5,6 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Метрика</title>
+	<link rel="icon" href="resources/favicon.png" type="image/png">
 	<link rel="stylesheet" href="styles/reset.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,7 +32,7 @@
 		<section class="about-us">
 			<div class="container">
 				<h2 class="title">О НАС</h2>
-				<p class="about-us-info">
+				<p class="about-us__info">
 					Студия основана в 2011 году. Полностью отдаемся
 					проектированию и реализации интерьеров. К нам
 					обращаются за уютом, индивидуальными
@@ -39,7 +40,7 @@
 					конструктивные решения для каждого интерьера,
 					вплоть до каждой детали — нацелены на результат.
 				</p>
-				<a href="" class="service-btn">Посмотреть услуги</a>
+				<a href="" class="about-us__btn">Посмотреть услуги</a>
 			</div>
 		</section>
 		<section class="projects">
@@ -47,17 +48,29 @@
 				<h2 class="title">ПРОЕКТЫ</h2>
 				<ul class="projects-list">
 					<li class="project">
-						<img class="project__image" src="resources/projects/right.png" alt="интерьер гостиной">
+						<picture>
+							<source media="(max-width: 500px)" srcset="resources/projects/right_mobile.png">
+							<source media="(max-width: 1199px)" srcset="resources/projects/right_tablet.png">
+							<img class="project__image" src="resources/projects/right.png" alt="интерьер гостиной">
+						</picture>
 						<p class="project__title">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</p>
 						<a href="https://github.com/AndreyLezhnevit" class="project__link" target="_blank">Подробнее →</a>
 					</li>
 					<li class="project">
-						<img class="project__image" src="resources/projects/norway.png" alt="интерьер гостиной">
+						<picture>
+							<source media="(max-width: 500px)" srcset="resources/projects/norway_mobile.png">
+							<source media="(max-width: 1199px)" srcset="resources/projects/norway_tablet.png">
+							<img class="project__image" src="resources/projects/norway.png" alt="интерьер гостиной">
+						</picture>
 						<p class="project__title">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</p>
 						<a href="https://github.com/AndreyLezhnevit" class="project__link" target="_blank">Подробнее →</a>
 					</li>
 					<li class="project">
-						<img class="project__image" src="resources/projects/lakes.png" alt="интерьер гостиной">
+						<picture>
+							<source media="(max-width: 500px)" srcset="resources/projects/lakes_mobile.png">
+							<source media="(max-width: 1199px)" srcset="resources/projects/lakes_tablet.png">
+							<img class="project__image" src="resources/projects/lakes.png" alt="интерьер гостиной">
+						</picture>
 						<p class="project__title">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</p>
 						<a href="https://github.com/AndreyLezhnevit" class="project__link" target="_blank">Подробнее →</a>
 					</li>

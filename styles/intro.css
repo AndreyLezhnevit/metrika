@@ -17,6 +17,7 @@
 			rgba(0, 0, 0, 0) 0%,
 			rgba(0, 0, 0, 0.2) 100%),
 		url(../resources/gray-chair.jpg);
+	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50%;
 }
@@ -76,7 +77,7 @@
 		background: linear-gradient(180deg,
 				rgba(0, 0, 0, 0) 0%,
 				rgba(0, 0, 0, 0.4) 100%),
-			url(../resources/gray-chair.jpg);
+			url(../resources/gray-chair_mobile.png);
 		background-size: cover;
 		background-position: 50%;
 	}

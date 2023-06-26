@@ -9,19 +9,19 @@
 	text-transform: uppercase;
 }
 
-.about-us-info {
+.about-us__info {
 	margin-bottom: 30px;
 	width: 1048px;
 	font-size: 45px;
 	line-height: 61.47px;
 }
 
-.service-btn {
+.about-us__btn {
 	display: block;
 	width: 255px;
-	height: 67px;
+	padding: 20px 40px;
 	border-radius: 5px;
-	line-height: 67px;
+	line-height: 27.32px;
 	text-align: center;
 	text-decoration: none;
 	font-size: 20px;
@@ -29,7 +29,7 @@
 	color: #FFFFFF;
 }
 
-.service-btn:hover {
+.about-us__btn:hover {
 	border: 1px solid #AD1818;
 	background-color: #FFFFFF;
 	color: #AD1818;
@@ -40,7 +40,7 @@
 		margin-bottom: 120px;
 	}
 
-	.about-us-info {
+	.about-us__info {
 		width: 690px;
 		font-size: 35px;
 		line-height: 48px;
@@ -58,18 +58,18 @@
 		line-height: 19px;
 	}
 
-	.about-us-info {
+	.about-us__info {
 		margin-bottom: 30px;
 		width: 346px;
 		font-size: 22px;
 		line-height: 30px;
 	}
 
-	.service-btn {
+	.about-us__btn {
 		width: 194px;
-		height: 51px;
+		padding: 14.5px 27px;
 		border-radius: 3.8px;
 		font-size: 16px;
-		line-height: 51px;
+		line-height: 22px;
 	}
 }

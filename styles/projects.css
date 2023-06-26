@@ -79,6 +79,7 @@
 	.project__image {
 		margin-bottom: 20px;
 		height: 250px;
+		object-fit: cover;
 	}
 
 	.project__title {
