@@ -1,6 +1,7 @@
 @import "/styles/intro.css";
 @import "/styles/about-us.css";
 @import "/styles/projects.css";
+@import "/styles/services.css";
 
 
 html {
@@ -26,18 +27,30 @@ div {
 	width: 1150px;
 }
 
-/* section */
+.title {
+	margin-bottom: 30px;
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+}
 
 @media (max-width: 1199px) {
 	.container {
 		width: 100%;
 		padding: 0 16px;
 	}
+
 }
 
 @media (max-width: 767px) {
 	.container {
 		padding: 0 12px;
+	}
+
+	.title {
+		margin-bottom: 20px;
+		font-size: 14px;
+		line-height: 19.12px;
 	}
 }
 
