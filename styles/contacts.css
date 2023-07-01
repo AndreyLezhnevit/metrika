@@ -26,7 +26,7 @@
 .contacts__email {
 	display: block;
 	padding-bottom: 10px;
-	border-bottom: none;
+	border-bottom: 2px solid white;
 	font-size: 60px;
 	line-height: 60px;
 	text-decoration: none;
@@ -36,7 +36,7 @@
 .contacts__phone:hover,
 .contacts__email:hover {
 	border-bottom: 2px solid;
-	opacity: 0.5;
+	color: rgb(12, 12, 12, 0.5);
 }
 
 @media (max-width: 1199px) {
@@ -49,12 +49,6 @@
 		padding-bottom: 0;
 		font-size: 45px;
 		border-bottom: none;
-	}
-
-	.contacts__phone:hover,
-	.contacts__email:hover {
-		border-bottom: 2px solid;
-		opacity: 0.5;
 	}
 }
 
