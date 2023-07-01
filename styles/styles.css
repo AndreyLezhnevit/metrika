@@ -2,7 +2,8 @@
 @import "/styles/about-us.css";
 @import "/styles/projects.css";
 @import "/styles/services.css";
-@import "/styles/reviews.css"; 
+@import "/styles/reviews.css";
+@import "/styles/gallery.css";
 
 html {
 	scroll-behavior: smooth;
@@ -20,6 +21,10 @@ a,
 p,
 div {
 	letter-spacing: -0.03em;
+}
+
+section {
+	margin-bottom: 150px;
 }
 
 .container {
@@ -40,6 +45,10 @@ div {
 		padding: 0 16px;
 	}
 
+	section {
+		margin-bottom: 120px;
+	}
+
 }
 
 @media (max-width: 767px) {
@@ -51,6 +60,10 @@ div {
 		margin-bottom: 20px;
 		font-size: 14px;
 		line-height: 19.12px;
+	}
+
+	section {
+		margin-bottom: 80px;
 	}
 }
 
