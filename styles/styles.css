@@ -6,6 +6,8 @@
 @import "/styles/gallery.css";
 @import "/styles/contacts.css";
 @import "/styles/footer.css";
+@import "/styles/popup.css";
+@import "/styles/buttons.css";
 
 html {
 	scroll-behavior: smooth;
@@ -27,6 +29,10 @@ div {
 
 section {
 	margin-bottom: 150px;
+}
+
+.body_fixed {
+	overflow: hidden;
 }
 
 .container {

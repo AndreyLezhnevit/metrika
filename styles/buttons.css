@@ -1,0 +1,40 @@
+.full-width-btn {
+	display: block;
+	width: 100%;
+	border: 1px solid #AD1818;
+	border-radius: 5px;
+	background-color: #FFFFFF;
+	text-align: center;
+	line-height: 153px;
+	color: #AD1818;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+.full-width-btn:hover {
+	background-color: #AD1818;
+	color: #FFFFFF;
+}
+
+.full-width-btn_small {
+	line-height: 63px;
+	font-size: 20px;
+}
+
+.full-width-btn_inverted {
+	background-color: #AD1818;
+	color: #FFFFFF;
+}
+
+.full-width-btn_inverted:hover {
+	background-color: #FFFFFF;
+	color: #AD1818;
+}
+
+@media (max-width: 767px) {
+	.full-width-btn {
+		line-height: 100px;
+		border-radius: 3.8px;
+		font-size: 22px;
+	}
+}
