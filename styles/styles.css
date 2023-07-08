@@ -10,6 +10,8 @@
 @import "/styles/buttons.css";
 @import "/styles/input.css";
 @import "/styles/order.css";
+@import "/styles/burger.css";
+@import "/styles/header.css";
 
 html {
 	scroll-behavior: smooth;

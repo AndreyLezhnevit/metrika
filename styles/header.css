@@ -1,0 +1,33 @@
+.header {
+	margin: 33px 0px 70px 0px;
+}
+
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav {
+	float: right;
+
+}
+
+.nav__link {
+	height: 25px;
+	line-height: 25px;
+	text-align: left;
+	font-size: 18px;
+	color: #121212;
+	text-decoration: none;
+}
+
+.nav__link:hover {
+	border-bottom: 1px solid;
+	opacity: 0.5;
+}
+
+.nav__list {
+	display: flex;
+	column-gap: 60px;
+}

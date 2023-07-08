@@ -15,7 +15,6 @@
 		url(../resources/gray-chair.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: 50%;
 }
 
 .intro-image__description {
@@ -46,19 +45,14 @@
 
 @media (max-width: 767px) {
 	.intro-title {
-		width: 348px;
+		width: 100%;
 		font-size: 30px;
 		line-height: 32px;
 	}
 
 	.intro-image {
 		height: 304px;
-		background: linear-gradient(180deg,
-				rgba(0, 0, 0, 0) 0%,
-				rgba(0, 0, 0, 0.4) 100%),
-			url(../resources/gray-chair_mobile.png);
-		background-size: cover;
-		background-position: 50%;
+		background-position: 44% 90%;
 	}
 
 	.intro-image__description {

@@ -14,7 +14,68 @@
 </head>
 
 <body>
-	<header></header>
+	<header class="header">
+		<div class="container">
+			<div class="header__inner">
+				<picture>
+					<source media="(max-width: 500px)" srcset="resources/logo-mobile.png">
+					<a href="#" class="logo">
+						<img src="resources/logo.png" alt="Логотип компании Метрика">
+					</a>
+				</picture>
+				<nav class="nav">
+					<ul class="nav__list">
+						<li>
+							<a href="#about-us" class="nav__link">О НАС</a>
+						</li>
+						<li>
+							<a href="#projects" class="nav__link">ПРОЕКТЫ</a>
+						</li>
+						<li>
+							<a href="#services" class="nav__link">УСЛУГИ</a>
+						</li>
+						<li>
+							<a href="#contacts" class="nav__link">КОНТАКТЫ</a>
+						</li>
+					</ul>
+				</nav>
+				<button class="js-burger-btn burger-btn"></button>
+				<div class="js-burger burger">
+					<div class="burger__content">
+						<img class="burger__logo" src="resources/logo.png" alt="Логотип компании Метрика">
+						<nav class="burger__nav">
+							<ul class="burger__nav-list">
+								<li>
+									<a href="#about-us" class="burger__nav-link">О НАС</a>
+								</li>
+								<li>
+									<a href="#projects" class="burger__nav-link">ПРОЕКТЫ</a>
+								</li>
+								<li>
+									<a href="#services" class="burger__nav-link">УСЛУГИ</a>
+								</li>
+								<li>
+									<a href="#contacts" class="burger__nav-link">КОНТАКТЫ</a>
+								</li>
+							</ul>
+						</nav>
+						<div class="burger__contacts js-burger__content">
+							<div class="burger__contacts-title">для связи:</div>
+							<ul class="burger__contacts-list">
+								<li>
+									<a class="burger__contacts-phone" href="tel:+79358954535">+7 935 895-45-35</a>
+								</li>
+								<li>
+									<a class="burger__contacts-tg" target="_blank"
+										href="https://t.me/Andorei_Sairon">Andorei_Sairon</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
 	<main>
 		<div class="js-popup popup">
 			<div class="js-popup__content popup__content">
@@ -48,7 +109,7 @@
 		</section>
 		<section class="about-us">
 			<div class="container">
-				<h2 class="title">О НАС</h2>
+				<h2 id="about-us" class="title">О НАС</h2>
 				<p class="about-us__info">
 					Студия основана в 2011 году. Полностью отдаемся проектированию и
 					реализации интерьеров. К нам обращаются за уютом, индивидуальными
@@ -60,7 +121,7 @@
 		</section>
 		<section class="projects">
 			<div class="container">
-				<h2 class="title">ПРОЕКТЫ</h2>
+				<h2 id="projects" class="title">ПРОЕКТЫ</h2>
 				<ul class="projects-list">
 					<li class="project">
 						<picture>
@@ -95,7 +156,7 @@
 		</section>
 		<section class="services">
 			<div class="container">
-				<h2 class="title title_white">Услуги</h2>
+				<h2 id="services" class="title title_white">Услуги</h2>
 				<ul class="services-list">
 					<li class="service">
 						<img class="service__image" src="resources/services/plan.png" alt="карандаш на чертеже" />
@@ -220,7 +281,7 @@
 		</section>
 		<section class="contacts">
 			<div class="container">
-				<h2 class="title">Контакты</h2>
+				<h2 id="contacts" class="title">Контакты</h2>
 				<div class="contacts__block">
 					<a class="contacts__phone" href="tel:+79358954535">+7 935 895-45-35</a>
 					<a class="contacts__email" target="_blank" href="https://t.me/Andorei_Sairon">Andorei_Sairon</a>
@@ -241,8 +302,9 @@
 			<p class="footer__title">студия дизайна интерьера Метрика — 2023</p>
 		</div>
 	</footer>
-	<script src="gallery.js"></script>
+	<script src="burger.js"></script>
 	<script src="popup.js"></script>
+	<script src="gallery.js"></script>
 
 
 
