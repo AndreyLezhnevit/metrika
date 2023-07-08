@@ -8,6 +8,8 @@
 @import "/styles/footer.css";
 @import "/styles/popup.css";
 @import "/styles/buttons.css";
+@import "/styles/input.css";
+@import "/styles/order.css";
 
 html {
 	scroll-behavior: smooth;
@@ -16,6 +18,11 @@ html {
 body {
 	font-family: 'Manrope', sans-serif;
 	color: #121212;
+}
+
+button {
+	font-family: inherit;
+	cursor: pointer;
 }
 
 h1,

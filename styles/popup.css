@@ -42,20 +42,6 @@
 	background-size: cover;
 }
 
-.popup__title {
-	margin-bottom: 4px;
-	font-size: 45px;
-	line-height: 61px;
-	text-align: center;
-}
-
-.popup__subtitle {
-	margin-bottom: 60px;
-	font-size: 18px;
-	line-height: 25px;
-	text-align: center;
-}
-
 @media (max-width: 767px) {
 
 	.popup__content {

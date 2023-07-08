@@ -48,7 +48,6 @@
 	.contacts__email {
 		padding-bottom: 0;
 		font-size: 45px;
-		border-bottom: none;
 	}
 }
 
@@ -70,6 +69,7 @@
 		width: 100%;
 		padding-bottom: 0;
 		font-size: 35px;
+		border-bottom: none;
 	}
 
 	.contacts__phone:hover,
