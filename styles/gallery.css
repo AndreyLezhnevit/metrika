@@ -70,11 +70,11 @@
 }
 
 .gallery__control-prev {
-	background-image: url(/resources/arrow.png);
+	background-image: url(../resources/arrow.png);
 }
 
 .gallery__control-next {
-	background-image: url(/resources/arrow.png);
+	background-image: url(../resources/arrow.png);
 	transform: rotate(180deg);
 }
 
