@@ -8,9 +8,12 @@
 
 .footer-nav {
 	margin: 0 auto;
+	width: 450px;
+}
+
+.footer-nav__list {
 	display: flex;
 	justify-content: space-between;
-	width: 450px;
 }
 
 .footer-nav__link {
