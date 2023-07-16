@@ -37,4 +37,9 @@
 		border-radius: 3.8px;
 		font-size: 22px;
 	}
+
+	.full-width-btn_small {
+		line-height: 63px;
+		font-size: 20px;
+	}
 }
